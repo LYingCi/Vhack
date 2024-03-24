@@ -1,0 +1,11 @@
+
+  /* Define the style for the header when scrolled */
+  .Header.scrolled {
+    position: relative; /* Fixed position when scrolled */
+    top: 0; /* Position at the top of the viewport */
+    width: 100%; /* Full width */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Box shadow for a subtle effect */
+    background-color: #ffffff; /* Background color */
+    z-index: 1000; /* Ensure it's above other content */
+  }
+  
