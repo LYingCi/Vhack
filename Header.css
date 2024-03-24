@@ -1,0 +1,196 @@
+.header body {
+  position: flex;
+  font-size:10px;
+  font-family: Helvetica, sans-serif;
+  background-color: #e1feff;
+}
+
+.header-icon {
+  width: 130px;
+}
+
+/* header */
+
+.header {
+  display: flex;
+  font-size: 40px;
+  font-family: Inika;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  background-color: #e1feff;
+  box-shadow: 1px 1px 4px 0 rgba(0, 0, 0, 0.1);
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 3;
+  padding-bottom: 1.0%;
+}
+
+
+.header.visible {
+  display: flex;
+  transition: top 0.5s ease-in-out;
+}
+
+.header.hidden {
+  display: none;
+  position: fixed;
+  top: -100px; /* Change this value based on your header height */
+  transition: top 0.5s ease-in-out;
+}
+
+
+.header-icon {
+  position: fixed;
+  display: flex;
+  width: 130px;
+  margin-bottom: 0%;
+  margin-top: 0.5%;
+  margin-left: 5%;
+}
+
+.header ul {
+  margin: 0;
+  padding: 0;
+  font-size: 20px;
+  list-style: none;
+  overflow: hidden;
+  background-color: #e1feff;
+}
+
+.header li a {
+  display: flexbox;
+  font-size: 25px;
+  border-right: 1px solid #E1F6FF;
+  text-decoration: none;
+  color: BLACK;
+  display: inline-block; /* Display menu items inline */
+  margin-left: 20px; /* Add some left margin between menu items */
+  margin-top:35px;
+}
+
+.header .menu li:last-child {
+  margin-right: 0; /* Remove right margin for the last menu item */
+}
+
+.header li a:hover {
+  text-decoration: underline;
+  text-underline-offset: 5px;
+  text-decoration-thickness: 2px;
+}
+
+.header .menu-btn:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.header li a:visited {
+  text-decoration: underline;
+}
+
+.header .logo {
+  display: block;
+  float: left;
+  font-size: 5em;
+  padding: 50px 70px;
+  text-decoration: none;
+  margin-top: 50px;
+}
+
+/* menu */
+
+.header .menu {
+  text-align: left;
+  max-height: 0;
+  transition: max-height 0.2s ease-out;
+}
+
+/* menu icon */
+
+.header .menu-icon {
+  cursor: pointer;
+  display: inline-block;
+  padding: 30px 5px;
+  position: relative;
+  user-select: none;
+  margin-top: 20px;
+  margin-left: 170px;
+}
+
+.header .menu-icon .navicon {
+  background: #333;
+  display: block;
+  height: 2px;
+  position: relative;
+  width: 18px;
+}
+
+.header .menu-icon .navicon:before,
+.header .menu-icon .navicon:after {
+  background: #333;
+  content: "";
+  display: block;
+  height: 100%;
+  position: absolute;
+  transition: all 0.2s ease-out;
+  width: 100%;
+}
+
+.header .menu-icon .navicon:before {
+  top: 5px;
+}
+
+.header .menu-icon .navicon:after {
+  top: -5px;
+}
+
+/* menu btn */
+
+.header .menu-btn {
+  display: none;
+}
+
+.header .menu-btn:checked ~ .menu {
+  max-height: 400px;
+}
+
+.header .menu-btn:checked ~ .menu-icon .navicon {
+  background: transparent;
+}
+
+.header .menu-btn:checked ~ .menu-icon .navicon:before {
+  transform: rotate(-45deg);
+}
+
+.header .menu-btn:checked ~ .menu-icon .navicon:after {
+  transform: rotate(45deg);
+}
+
+.header .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:before,
+.header .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:after {
+  top: 0;
+}
+
+/* 48em = 768px */
+
+@media (min-width: 48em) {
+  .header li {
+    float: left;
+  }
+  .header li a {
+    padding: 10px 20px;
+  }
+  .header .menu {
+    clear: none;
+    float: right;
+    max-height: none;
+    margin-left: 450px;
+  }
+  .header .menu-icon {
+    display: none;
+  }
+
+  .header li a:visited {
+    text-decoration: underline;
+  }
+}
