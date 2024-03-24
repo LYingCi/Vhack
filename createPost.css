@@ -1,0 +1,113 @@
+.post-wrap {
+    display: flex;
+    background-color: lightyellow;
+    background-size: cover;
+    flex-direction: column;
+  }
+  
+  .post-top h1 {
+    font-size: 40px;
+    font-family: "Lucida Handwriting", cursive;
+    margin-top: 3rem;
+    margin-left: 3rem;
+  
+    /* margin: 4rem; */
+  }
+  
+  @media (max-width: 800px) {
+    .post-top h1 {
+      font-size: 36px;
+      font-family: "Lucida Handwriting", cursive;
+      /* background-color: black; */
+      display: flex;
+      justify-content: center;
+      margin-left: 0rem;
+    }
+  }
+  
+  .post-bottom {
+    display: flex;
+    flex-direction: column;
+    background-color: lightgrey;
+    max-width: 900px;
+    padding: 50px 60px;
+    border-radius: 30px;
+    margin-bottom: 5rem;
+    position: relative;
+    margin: 2rem;
+  }
+  
+  .UploadBox1 {
+    max-width: 700px; /* Set the desired width */
+    height: 60px; /* Set the desired height */
+    border: 1px solid black; /* Add a border with desired style and color */
+    background-color: white; /* Set the background color to desired value */
+  }
+  
+  .UploadBox2 {
+    max-width: 700px; /* Set the desired width */
+    height: 60px; /* Set the desired height */
+    border: 1px solid black; /* Add a border with desired style and color */
+    background-color: white; /* Set the background color to desired value */
+  }
+  
+  .uploadbutton {
+    display: inline-block;
+    padding: 5px 10px;
+    font-size: 20px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #04aa6d;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+    margin-bottom: 2rem;
+  }
+  
+  .uploadbutton:hover {
+    background-color: #3e8e41;
+  }
+  
+  .uploadbutton:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+  
+  .Createbutton {
+    display: inline-block;
+    padding: 10px 15px;
+    font-size: 25px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #04aa6d;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+  }
+  
+  .Createbutton:hover {
+    background-color: #3e8e41;
+  }
+  
+  .Createbutton:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+  
+  .createpost {
+    margin-bottom: 3rem;
+  }
+  
+  .Create {
+    position: absolute;
+    right: 4rem;
+    margin-top: 2rem;
+  }

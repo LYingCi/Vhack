@@ -1,0 +1,457 @@
+.Header {
+  font-weight: bold;
+  margin-left: 20px;
+  font-size: 20px;
+  margin-bottom: 20px;
+  margin-top:120px;
+}
+  
+ .Content1 .Step1 {
+    position:relative;
+    display:flex;
+    font-weight: 650; /* Semi-bold */
+    font-size: 27px;
+    margin-left: 30px;
+    color: #1C5559;
+    margin-bottom: 10px;
+  }
+  
+  .Content1 h2{
+    font-weight:500;
+    font-size: 20px;
+    margin-left: 40px;
+    color:black;
+    margin-bottom:5px;
+  }
+
+  .Content1 p {
+    position: relative;
+    display:flex;
+    font-weight:470;
+    color: black;
+    text-align: left;
+    margin-left: 40px;
+    margin-bottom: 25px; /* Adjust margin as needed */
+    width:auto;
+    word-wrap: break-word; /* Add word-wrap property */
+  }
+  
+  .first-pic {
+    float: right;
+    margin-right:30px;
+    width: 370px; /* Adjust width as needed */
+  }
+  
+  /* Media query for smaller screen sizes */
+@media screen and (max-width: 768px) {
+  .Header {
+    font-size: 20px; /* Adjust font size for smaller screens */
+  }
+
+  .Content1 .Step1 {
+    font-size: 20px; /* Adjust font size for smaller screens */
+  }
+
+  .Content1 h2 {
+    font-size: 16px; /* Adjust font size for smaller screens */
+    margin-left: 20px;
+  }
+
+  .Content1 p {
+    font-size: 14px; /* Adjust font size for smaller screens */
+    margin-left: 20px; /* Adjust margin for smaller screens */
+  }
+
+  .first-pic {
+    float:none;
+    width: 70%; /* Adjust image width for smaller screens */
+    margin-left: 30px; /* Reset margin for smaller screens */
+
+  }
+}
+
+  .Content2 .Step2 {
+    position:relative;
+    display:flex;
+    font-weight: 650; /* Semi-bold */
+    font-size: 27px;
+    margin-left: 30px;
+    color: #1C5559;
+    margin-bottom: 10px;
+  }
+  
+  .Content2 h2{
+    font-weight:500;
+    font-size: 20px;
+    margin-left: 40px;
+    color:black;
+    margin-bottom:5px;
+  }
+
+  .Content2 p {
+    position: relative;
+    display:flex;
+    font-weight:470;
+    color: black;
+    text-align: left;
+    margin-left: 40px;
+    margin-bottom: 25px; /* Adjust margin as needed */
+    width:auto;
+  }
+
+  /* Media query for smaller screen sizes */
+@media screen and (max-width: 768px) {
+  .Content2 .Step2 {
+    font-size: 20px; /* Adjust font size for smaller screens */
+  }
+
+  .Content2 h2 {
+    font-size: 16px; /* Adjust font size for smaller screens */
+    margin-left: 20px;
+  }
+
+  .Content2 p {
+    font-size: 14px; /* Adjust font size for smaller screens */
+    margin-left: 20px; /* Adjust margin for smaller screens */
+  }
+
+}
+
+  .Content3 .Step3 {
+    position:relative;
+    display:flex;
+    font-weight: 650; /* Semi-bold */
+    font-size: 27px;
+    margin-left: 30px;
+    color: #1C5559;
+    margin-bottom: 10px;
+  }
+  
+  .Content3 h2{
+    font-weight:500;
+    font-size: 20px;
+    margin-left: 40px;
+    color:black;
+    margin-bottom:5px;
+  }
+
+  .Content3 p {
+    position: relative;
+    display:flex;
+    font-weight:470;
+    color: black;
+    text-align: left;
+    margin-left: 40px;
+    margin-bottom: 25px; /* Adjust margin as needed */
+    width:auto;
+    word-wrap: break-word; /* Add word-wrap property */
+  }
+  
+  .sec-pic {
+    float: right;
+    margin-right:1px;
+    width: 450px; /* Adjust width as needed */
+  }
+
+   /* Media query for smaller screen sizes */
+@media screen and (max-width: 768px) {
+  .Content3 .Step3 {
+    font-size: 20px; /* Adjust font size for smaller screens */
+  }
+
+  .Content3 h2 {
+    font-size: 16px; /* Adjust font size for smaller screens */
+    margin-left: 20px;
+  }
+
+  .Content3 p {
+    font-size: 14px; /* Adjust font size for smaller screens */
+    margin-left: 20px; /* Adjust margin for smaller screens */
+  }
+
+  .sec-pic {
+    float:none;
+    width: 70%; /* Adjust image width for smaller screens */
+    margin-left: 30px; /* Reset margin for smaller screens */
+    margin-bottom: 15px;
+
+  }
+}
+
+
+  .Content4 .Step4 {
+    position:relative;
+    display:flex;
+    font-weight: 650; /* Semi-bold */
+    font-size: 27px;
+    margin-left: 30px;
+    color: #1C5559;
+    margin-bottom: 10px;
+  }
+  
+  .Content4 h2{
+    font-weight:500;
+    font-size: 20px;
+    margin-left: 40px;
+    color:black;
+    margin-bottom:5px;
+  }
+
+  .Content4 p {
+    position: relative;
+    display:flex;
+    font-weight:470;
+    color: black;
+    text-align: left;
+    margin-left: 40px;
+    margin-bottom: 25px; /* Adjust margin as needed */
+    width:auto;
+  }
+
+   /* Media query for smaller screen sizes */
+@media screen and (max-width: 768px) {
+  .Content4 .Step4 {
+    font-size: 20px; /* Adjust font size for smaller screens */
+  }
+
+  .Content4 h2 {
+    font-size: 16px; /* Adjust font size for smaller screens */
+    margin-left: 20px;
+  }
+
+  .Content4 p {
+    font-size: 14px; /* Adjust font size for smaller screens */
+    margin-left: 20px; /* Adjust margin for smaller screens */
+  }
+}
+
+  .Content5 .Step5 {
+    position:relative;
+    display:flex;
+    font-weight: 650; /* Semi-bold */
+    font-size: 27px;
+    margin-left: 30px;
+    color: #1C5559;
+    margin-bottom: 10px;
+  }
+  
+  .Content5 h2{
+    font-weight:500;
+    font-size: 20px;
+    margin-left: 40px;
+    color:black;
+    margin-bottom:5px;
+  }
+
+  .Content5 p {
+    position: relative;
+    display:flex;
+    font-weight:470;
+    color: black;
+    text-align: left;
+    margin-left: 40px;
+    margin-bottom: 25px; /* Adjust margin as needed */
+    width:auto;
+  }
+  
+
+  .third-pic {
+    float: right;
+    margin-right:20px;
+    width: 350px; /* Adjust width as needed */
+  }
+
+  @media screen and (max-width: 768px) {
+    .Content5 .Step5 {
+      font-size: 20px; /* Adjust font size for smaller screens */
+    }
+  
+    .Content5 h2 {
+      font-size: 16px; /* Adjust font size for smaller screens */
+      margin-left: 20px;
+    }
+  
+    .Content5 p {
+      font-size: 14px; /* Adjust font size for smaller screens */
+      margin-left: 20px; /* Adjust margin for smaller screens */
+    }
+  
+    .third-pic {
+      float:none;
+      width: 70%; /* Adjust image width for smaller screens */
+      margin-left: 30px; /* Reset margin for smaller screens */
+  
+    }
+  }
+
+  .Content6 .Step6 {
+    position:relative;
+    display:flex;
+    font-weight: 650; /* Semi-bold */
+    font-size: 27px;
+    margin-left: 30px;
+    color: #1C5559;
+    margin-bottom: 10px;
+  }
+  
+  .Content6 h2{
+    font-weight:500;
+    font-size: 20px;
+    margin-left: 40px;
+    color:black;
+    margin-bottom:5px;
+  }
+
+  .Content6 p {
+    position: relative;
+    display:flex;
+    font-weight:470;
+    color: black;
+    text-align: left;
+    margin-left: 40px;
+    margin-bottom: 25px; /* Adjust margin as needed */
+    width:auto;
+  }
+
+    /* Media query for smaller screen sizes */
+@media screen and (max-width: 768px) {
+  .Content6 .Step6 {
+    font-size: 20px; /* Adjust font size for smaller screens */
+  }
+
+  .Content6 h2 {
+    font-size: 16px; /* Adjust font size for smaller screens */
+    margin-left: 20px;
+  }
+
+  .Content6 p {
+    font-size: 14px; /* Adjust font size for smaller screens */
+    margin-left: 20px; /* Adjust margin for smaller screens */
+  }
+}
+
+
+  .Content7 .Step7 {
+    position:relative;
+    display:flex;
+    font-weight: 650; /* Semi-bold */
+    font-size: 27px;
+    margin-left: 30px;
+    color: #1C5559;
+    margin-bottom: 10px;
+  }
+  
+  .Content7 h2{
+    font-weight:500;
+    font-size: 20px;
+    margin-left: 40px;
+    color:black;
+    margin-bottom:5px;
+  }
+
+  .Content7 p {
+    position: relative;
+    display:flex;
+    font-weight:470;
+    color: black;
+    text-align: left;
+    margin-left: 40px;
+    margin-bottom: 25px; /* Adjust margin as needed */
+    width:auto;
+  }
+  
+
+  .four-pic {
+    float: right;
+    margin-right:20px;
+    width: 330px; /* Adjust width as needed */
+    margin-bottom: 30px;
+  }
+
+  @media screen and (max-width: 768px) {
+    .Content7 .Step7 {
+      font-size: 20px; /* Adjust font size for smaller screens */
+      margin-left:30px
+    }
+  
+    .Content7 h2 {
+      font-size: 16px; /* Adjust font size for smaller screens */
+      margin-left: 20px;
+    }
+  
+    .Content7 p {
+      font-size: 14px; /* Adjust font size for smaller screens */
+      margin-left: 20px; /* Adjust margin for smaller screens */
+    }
+  
+    .four-pic {
+      float:none;
+      width: 70%; /* Adjust image width for smaller screens */
+      margin-left: 30px; /* Reset margin for smaller screens */
+  
+    }
+  }
+
+  .Content8 .Step8 {
+    position:relative;
+    display:flex;
+    font-weight: 650; /* Semi-bold */
+    font-size: 27px;
+    margin-left: 30px;
+    color: #1C5559;
+    margin-bottom: 10px;
+  }
+  
+  .Content8 h2{
+    font-weight:500;
+    font-size: 20px;
+    margin-left: 40px;
+    color:black;
+    margin-bottom:5px;
+  }
+
+  .Content8 p {
+    position: relative;
+    display:flex;
+    font-weight:470;
+    color: black;
+    text-align: left;
+    margin-left: 40px;
+    margin-bottom: 25px; /* Adjust margin as needed */
+    width:auto;
+  }
+
+  .fif-pic {
+    position:relative;
+    display:flex;
+    flex-direction: center;
+    text-align: center;
+    align-items: center;
+    margin-left:300px;
+    width: 600px; /* Adjust width as needed */
+    margin-top: 25px;
+    margin-bottom:35px;
+  }
+
+  @media screen and (max-width: 768px) {
+    .Content8 .Step8 {
+      font-size: 20px; /* Adjust font size for smaller screens */
+      margin-left:30px
+    }
+  
+    .Content8 h2 {
+      font-size: 16px; /* Adjust font size for smaller screens */
+      margin-left: 20px;
+    }
+  
+    .Content8 p {
+      font-size: 14px; /* Adjust font size for smaller screens */
+      margin-left: 20px; /* Adjust margin for smaller screens */
+    }
+  
+    .fif-pic {
+      width: 70%; /* Adjust image width for smaller screens */
+      margin-left: 50px; /* Reset margin for smaller screens */
+  
+    }
+  }
