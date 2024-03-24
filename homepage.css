@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.homepg {
+  width: 100%;
+  height: 100vh;
+
+  overflow: hidden;
+  position: relative;
+  background-image: url("./assets/s1.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  animation: change 20s infinite ease-in-out;
+  /* color: white; */
+  /* background-size: 100% 100vh; */
+}
+
+.flower1-container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  margin-top: 4rem;
+  /* background-color: blue; */
+  max-height: 200px;
+
+  /* background-color: transparent;
+  padding: 20px;
+  max-width: 800px;
+  max-height: 80px;
+  border-radius: 30px; */
+
+  /* display: inline;
+  display: inline-block; */
+}
+
+.flower1-container h1 {
+  /* color: white; */
+  font-size: 35px;
+  letter-spacing: 13px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-family: "Lucida Handwriting", cursive;
+
+  /* text-shadow: 1px 1px 5px black, 0 0 5px darkblue; */
+}
+
+.flower1-container p1 {
+  /* color: white; */
+  font-size: 15px;
+  letter-spacing: 2px;
+  /* margin-top: -rem; */
+}
+
+@keyframes change {
+  0% {
+    background-image: url("./assets/s2.jpg");
+    color: white;
+  }
+  20% {
+    background-image: url("./assets/hydro.jpg");
+    color: black;
+  }
+  40% {
+    background-image: url("./assets/s1.jpg");
+    color: white;
+  }
+  60% {
+    background-image: url("./assets/f4.jpg");
+    color: white;
+  }
+  80% {
+    background-image: url("./assets/v5.jpg");
+    color: white;
+  }
+  100% {
+    background-image: url("./assets/j1.jpg");
+    color: white;
+  }
+}
+
+@media (max-width: 800px) {
+  .flower1-container h1 {
+    font-size: 36px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    max-width: 500px;
+    margin: 0 auto;
+    /* background-color: black; */
+  }
+}
